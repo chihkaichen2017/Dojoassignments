@@ -1,0 +1,21 @@
+*{
+  margin: 0px;
+}
+
+img{
+  margin: 10px;
+}
+
+.wrapper{
+  height: 640px;
+  width: 900px;
+  background-color: grey;
+}
+
+.headline{
+  display: inline-block;
+}
+
+.Photo{
+  display: inline-block;
+}

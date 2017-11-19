@@ -1,0 +1,84 @@
+.wrapper{
+  background-color: black;
+  padding: 0px 10px 5px 20px; <!-ratio= 0_2_1_4->
+  width: 1920;
+  height: 1080px;
+}
+
+.headline{
+  background-color: black;
+  padding: 20px;
+  vertical-align: center;
+  width:1900; <!-same first->
+  height: 60px; <!-same with Footnote->
+}
+
+.content{
+  background-color: white;
+  margin: 20px;
+  padding: 40px;
+  width:1900; <!-same first->
+  height: 720px; <!-about 12x Footnote->
+  padding: 40px; <!-about 2x wrapper 2x padding-left->
+}
+
+.Footnote{
+  background-color: lightblue;
+  vertical-align: center;
+  width:1900; <!-same first->
+  height: 60px; <!-same with Footnote->
+}
+
+-------------
+
+.Capital{
+  font-size: 36pt;
+  color: white;
+  width: 100px;
+}
+
+.Horizontal{
+  Display: inline-block;
+}
+
+.HeadlineLink{
+  vertical-align: center;
+  padding: 40px; <!-about 2x wrapper padding-left: ->
+  Display: inline-block;
+  height: 60px; <!-same with Footnote->
+  width: 500px;
+}
+
+.HeadLinkColor{
+  font-size: 20pt;
+  color: white;
+}
+
+---------------
+
+.Snowboarding{
+  width: 1820px; <!-content width-2xpadding ->
+  height: 728px; <!- about 25* width->
+}
+
+.Category{
+  background-color: navy;
+  width: auto; <!-same with Snowboarding content width-2xpadding ->
+  height: auto; <!-about half of Snowboarding height ->
+}
+
+.iconsize{
+  width: 50px;
+  height: 50px; <!-square icon->
+}
+
+.WhiteText{
+  color: white;
+}
+
+-------------
+.Future{
+  background-color: white;
+  width: 1820px; <!-same with Snowboarding content width-2xpadding ->
+  height: 364px; <!-about half of Snowboarding height ->
+}
